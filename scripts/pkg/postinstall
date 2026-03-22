@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CONFIG_DIR="/usr/local/etc/remote-sudo-touch"
+DEFAULT_CONFIG="$CONFIG_DIR/config.json.default"
+LIVE_CONFIG="$CONFIG_DIR/config.json"
+
+mkdir -p "$CONFIG_DIR"
+
+if [[ ! -f "$LIVE_CONFIG" && -f "$DEFAULT_CONFIG" ]]; then
+  cp "$DEFAULT_CONFIG" "$LIVE_CONFIG"
+  chmod 0644 "$LIVE_CONFIG"
+fi
+
+exit 0

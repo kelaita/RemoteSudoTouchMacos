@@ -1,0 +1,7 @@
+{
+  "host": "127.0.0.1",
+  "port": 9876,
+  "timeoutSeconds": 30,
+  "requestKind": "sudo_auth",
+  "helperExecutablePath": "/usr/local/libexec/remote-sudo-touch/remote-sudo-touch-macos"
+}
