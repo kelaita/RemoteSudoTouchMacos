@@ -7,6 +7,12 @@ lets a remote Mac use your main Mac's Touch ID approval flow through an
 The main macOS manager app lives here:
 [RemoteSudoTouch](https://github.com/kelaita/RemoteSudoTouch)
 
+This repo also includes two prebuilt installer packages in `dist/` for direct
+download and installation:
+
+- Apple Silicon: `dist/RemoteSudoTouchMacos-<version>-arm64.pkg`
+- Intel: `dist/RemoteSudoTouchMacos-<version>-x86_64.pkg`
+
 ## What it provides
 
 - `remote-sudo-touch-macos`
