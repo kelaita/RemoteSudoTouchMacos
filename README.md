@@ -4,6 +4,9 @@
 lets a remote Mac use your main Mac's Touch ID approval flow through an
 `rsudo` wrapper instead of PAM integration.
 
+The main macOS manager app lives here:
+[RemoteSudoTouch](https://github.com/kelaita/RemoteSudoTouch)
+
 ## What it provides
 
 - `remote-sudo-touch-macos`
@@ -263,10 +266,6 @@ rsudo --help
 which rsudo
 ```
 
-## Repo relationship
-
-Main macOS manager app:
-[RemoteSudoTouch](https://github.com/kelaita/RemoteSudoTouch)
 
 ## Repo relationship
 
