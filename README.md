@@ -1,7 +1,8 @@
 # RemoteSudoTouchMacos
 
 `RemoteSudoTouchMacos` is a macOS-specific client for RemoteSudoTouch that
-avoids PAM integration and instead provides an `rsudo` wrapper.
+lets a remote Mac use your main Mac's Touch ID approval flow through an
+`rsudo` wrapper instead of PAM integration.
 
 ## What it provides
 
@@ -261,6 +262,11 @@ nc -vz 127.0.0.1 9876
 rsudo --help
 which rsudo
 ```
+
+## Repo relationship
+
+Main macOS manager app:
+[RemoteSudoTouch](https://github.com/kelaita/RemoteSudoTouch)
 
 ## Repo relationship
 
